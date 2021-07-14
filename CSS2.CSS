@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+
+}
+ 
+ 
+ 
+ body {
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(images/pic1.jpg)  ;
+     background-position: center;
+     background-size: cover;
+
+ }
+
+ header {
+
+     height: 65px;
+     background-color: black; 
+     /*nav shadow */
+     -webkit-box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    
+      
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size:xxx-large ;
+    padding-left: 20px;    
+}
+
+nav {   
+    height: 65px;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li a {
+    line-height: 65px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-size: larger;
+    padding: 20px 20px;
+    
+}   
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+
+
+}
+
+.glass{
+    background: white;
+    width: 80%;
+    height: 500px;
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.1));
+    border-radius: 10px;
+
+
+}
+
+#firstpart{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#gokupic{
+position: relative;    
+border-radius: 50%;
+border: solid 3px cornsilk;
+padding: 5px;
+width: 15%;
+height: 15%;
+top: 9%;
+left: 5%;
+
+}
+
+
+#myname{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    
+
+    
+}
+
+#myrole{
+   position:relative;
+   top: 20%;
+   left: 9% ;
+}

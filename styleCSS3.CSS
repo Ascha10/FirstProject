@@ -1,0 +1,75 @@
+body {
+    margin: 0px  ;
+    padding: 0px ;
+    background-color:rgba(0, 0, 0, 0.904) ;
+    
+
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+
+}
+
+
+ #first {
+
+    height: 65px;
+    background-color: black; 
+    /*nav shadow */
+    -webkit-box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+   box-shadow: 0px 9px 10px 1px rgba(0,0,0,0.75);
+   
+     
+}
+
+h1 {
+   font-family: 'Lobster', cursive;
+   font-size:xxx-large ;
+   padding-left: 20px;
+   display: inline-block;
+
+}
+
+nav {
+   
+   height: 65px;
+   display: inline-block;
+   float: right;
+   
+   
+}
+
+nav > a {
+   line-height: 65px;
+   text-decoration: none;
+   font-family: 'Lobster', cursive;
+   font-family: 'Monoton', cursive;
+   font-size: larger;
+   padding: 20px 20px;
+}
+
+
+section{
+
+    border: yellow solid 5px;
+    height: 80px;
+    
+
+}
+h2 {
+    color:rgb(238, 238, 227);
+    /* justify-content: center; 
+     align-items: center;  */
+    padding: 30px 700px;
+    font-size: xx-large;
+    font-weight: bold ;
+    margin-bottom: 20px;
+    
+    
+
